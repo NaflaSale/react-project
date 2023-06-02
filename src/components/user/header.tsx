@@ -51,7 +51,7 @@ export default function HeaderComponents() {
             })}
           </nav>
       </div>
-      <div className="w-[154px] h-[34px] sm:w-[114px]">
+      <div className="w-[154px] h-[34px] sm:w-[114px] ">
         <img src="/assets/images/Logo.png" alt="" />
       </div>
     </div>
