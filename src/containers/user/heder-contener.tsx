@@ -12,7 +12,7 @@ export default function HeaderContainer() {
         <p className="font-bold font-sans "> Manage your projects and </p>
         <p className="font-bold font-sans ">collaborate with teams</p>
         </div>
-        <p className="text-[20px] sm:text-[16px] font-light font-sans  ">
+        <p className="text-[20px] sm:text-[12px] font-light font-sans  ">
           A tool for visualising , organising and tracking all the work you do
         </p>
       </div>
