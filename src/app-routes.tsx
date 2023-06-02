@@ -5,6 +5,9 @@ import App from "./App";
 import { appRoutesObj } from "./app.paths";
 
 const ExamplePage = React.lazy(() => import('./pages/user/example-page'));
+const FeaturesPage = React.lazy(() => import('./pages/user/features-page'));
+const OurTeamPage = React.lazy(() => import('./pages/user/features-page'));
+
 const NotFoundPage = React.lazy(() => import('./pages/404'));
 
 const withSuspense = (WrappedComponent: JSX.Element) => {
@@ -42,6 +45,16 @@ export function AppRouting() {
               key="examplePage"
               path={appRoutesObj.getExamplePagePath()}
               element={withSuspense(<ExamplePage />)}
+            />
+             <Route
+              key="featuresPage"
+              path={appRoutesObj.getFeaturesByIdPagePath()}
+              element={withSuspense(<FeaturesPage />)}
+            />
+             <Route
+              key="featuresPage"
+              path={appRoutesObj.getFeaturesByIdPagePath()}
+              element={withSuspense(<OurTeamPage />)}
             />
 
             

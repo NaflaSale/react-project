@@ -1,26 +1,21 @@
 import { useTranslation } from "react-i18next";
 
+import HeaderContainer from "./containers/user/heder-contener";
+import LoGoContainer from "./containers/user/logo-container";
+import TeamContainer from "./containers/user/team-container";
+import UserContainer from "./containers/user/users-comtainer";
+
 
 function App() {
 
   const {t} = useTranslation();
 
   return (
-    <div className="App">
-      <header className="flex items-center flex-col gap-5">
-        <img src={"assets/images/logo.png"} className="App-logo" alt="logo" />
-        <h1 className="text-3xl font-bold text-red-500 underline">
-          {t('app.name')}
-        </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="" >
+      <HeaderContainer/>
+      <LoGoContainer/>
+      < TeamContainer/>
+      <UserContainer/>
     </div>
   );
 }

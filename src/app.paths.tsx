@@ -43,6 +43,23 @@ class AppRoutes {
     return this.getExampleByIdPagePath().replace(':id',id);
   }
   // ./Example
+
+  //Features
+  getFeaturesByIdPagePath():string{
+    return `/features/:id`;
+  }
+
+  getFeaturesByIdPageUrl(id:string):string{
+    return this.getExampleByIdPagePath().replace(':id',id);
+  }
+  //getOurTeam 
+  getOurTeamByIdPagePath():string{
+    return `/ourTeam /:id`;
+  }
+
+  getOurTeamByIdPageUrl(id:string):string{
+    return this.getExampleByIdPagePath().replace(':id',id);
+  }
 }
 
 export const appRoutesObj = AppRoutes.getInstance();
