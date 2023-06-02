@@ -63,7 +63,7 @@ export default function TeamContainer() {
         
        
       </div>
-      <div className="w-[600px] font-sans  flex flex-col text-center p-[3px] items-center text-[14px]   sm:text-[12px] font-light ">
+      <div className="w-[600px] font-sans  flex flex-col text-center p-[3px] items-center text-[14px]   sm:text-[10px] font-light ">
         <p>Your favorite project management team now flexible enough to take on any project<br></br> Work how you want and where you want</p>
       </div>
     </div>

@@ -28,7 +28,7 @@ export default function HeaderComponents() {
     <div className=" flex justify-between h-[78px] w-screen sm:text-[12px] gap-[50px] xl:gap-[200px] sm:gap-[5px]   items-center px-[16px]  ">
       <div>
         <Button
-          color={"bg-[#DBF301] text-white"}
+          color={"bg-[#DBF301] text-white "}
           onClick={() => ""}
           text={"Get Started"}
         />
@@ -51,9 +51,12 @@ export default function HeaderComponents() {
             })}
           </nav>
       </div>
-      <div className="w-[154px] h-[34px] sm:w-[114px] ">
+      <div className="">
+            <img src="/assets/images/Logo.png" alt="" />
+          </div>
+      {/* <div className="w-[154px] h-[34px] sm:w-[114px] sm:h-[14px] ">
         <img src="/assets/images/Logo.png" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

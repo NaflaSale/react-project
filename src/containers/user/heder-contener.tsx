@@ -5,7 +5,7 @@ import HeaderComponents from "src/components/user/header";
 export default function HeaderContainer() {
     const [toggel, setToggel] = useState(false);
   return (
-    <div className=" bg-homeBackground sm:h-[400px] bg-cover bg-no-repeat w-full h-[630px] ">
+    <div className=" bg-homeBackground sm:h-[400px] bg-cover bg-no-repeat w-full h-[830px] ">
       <HeaderComponents />
       <div className=" flex flex-col  font-title items-center pt-[2px] sm:text-[20px]  ">
         <div className=" flex flex-col  items-center text-[40px] pt-[50px]  ont-bold sm:text-[30px] font-title  pb-[22px]">
