@@ -11,7 +11,7 @@ function App() {
   const {t} = useTranslation();
 
   return (
-    <div className="flex justify-center items-center" >
+    <div className="" >
       <HeaderContainer/>
       <LoGoContainer/>
       < TeamContainer/>
