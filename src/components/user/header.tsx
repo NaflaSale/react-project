@@ -51,12 +51,12 @@ export default function HeaderComponents() {
             })}
           </nav>
       </div>
-      <div className="">
+      {/* <div className="">
             <img src="/assets/images/Logo.png" alt="" />
-          </div>
-      {/* <div className="w-[154px] h-[34px] sm:w-[114px] sm:h-[14px] ">
+          </div> */}
+      <div className="w-[154px] h-[34px] sm:w-[90px] sm:h-[19px] ">
         <img src="/assets/images/Logo.png" alt="" />
-      </div> */}
+      </div>
     </div>
   );
 }
